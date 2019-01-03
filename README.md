@@ -677,3 +677,5 @@ Python documentation is really good! Here's some links:
 * [Lists, tuples, sets, dictionaries](https://docs.python.org/2/tutorial/datastructures.html)
 * [itertools](https://docs.python.org/2/library/itertools.html)
 * [collections](https://docs.python.org/2/library/collections.html)
+
+# [Assignment](assignment.md)
