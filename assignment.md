@@ -22,15 +22,16 @@ Ideally, you should regularly run steps 1-3. This will save your work as you go.
 Using atom text editor, open ./src/assignment_2.1.py and write your program.
 <br>Compare your output with 'Desired Output'
 
-    Desired Output: 
+    Desired Output:<br> 
             <b>Pay: 96.25</b>
                  
 2.1. Write a program to prompt the user for hours and rate per hour using input to compute gross pay. Pay the hourly rate for the hours up to 40 and 1.5 times the hourly rate for all hours worked above 40 hours. Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75). You should use input to read a string and float() to convert the string to a number. Do not worry about error checking the user input - assume the user types numbers properly.
 Using atom text editor, open ./src/assignment_2.2.1.py and write your program.
 <br>Compare your output with 'Desired Output'
+ 
 
     Desired Output: 
-            <b>Pay: 498.75</b>
+            Pay: 498.75
 
 2.2 Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range, print an error. If the score is between 0.0 and 1.0, print a grade using the following table:
 Score Grade
@@ -45,10 +46,10 @@ Using atom text editor, open ./src/assignment_2.2.2.py and write your program.
 <br>Compare your output with 'Desired Output'
 
     Desired Output: 
-            <b>B</b>
+            B
 
 
-3. Write a program to prompt the user for hours and rate per hour using input to compute gross pay. Pay should be the normal rate for hours up to 40 and time-and-a-half for the hourly rate for all hours worked above 40 hours. Put the logic to do the computation of time-and-a-half in a function called computepay() and use the function to do the computation. The function should return a value. Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75). You should use input to read a string and float() to convert the string to a number. Do not worry about error checking the user input unless you want to - you can assume the user types numbers properly. Do not name your variable sum or use the sum() function.
+3. Write a program to prompt the user for hours and rate per hour using input to compute gross pay. Pay should be the normal rate for hours up to 40 and time-and-a-half for the hourly rate for all hours worked above 40 hours. Put the logic to do the computation of time-and-a-half in a function called <b>computepay()</b> and use the function to do the computation. The function should return a value. Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75). You should use <b>input</b> to read a string and <b>float()</b> to convert the string to a number. Do not worry about error checking the user input unless you want to - you can assume the user types numbers properly. Do not name your variable sum or use the sum() function.
 And then submit it as above submit guide. 
 
 Using atom text editor, open ./src/assignment_2.3.py and write your program.
