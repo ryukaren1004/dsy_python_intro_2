@@ -1,4 +1,4 @@
 # This first 2 lines are provided for you
 
-hrs = input("Enter Hours:")
-h = float(hrs)
+english = input("Enter English score:")
+h = int(english)
