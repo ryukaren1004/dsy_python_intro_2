@@ -154,7 +154,9 @@ Short-circuit evaluation of logical expressions: When Python detects that there 
     ZeroDivisionError: division by zero
 >>>
 >>>
+## [Exercises](./exercises_cond.md)
 
+## [Glossary](./glossary_cond.md)
 
 
 
