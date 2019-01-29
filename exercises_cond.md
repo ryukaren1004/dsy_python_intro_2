@@ -1,42 +1,35 @@
-<b>Exercise 1: type the following statements in the Python interpreter to see what they do:</b>
+<b>Exercise 1: Rewrite your average score computation to give English 1.5 times for scores above 80.</b>
 
-    8
-    x = 8
-    x + 2
-
-<b>Exercise 2: Write a program that uses input to prompt a user for their name and then welcomes them.</b>
-
-    Enter your name: Alex
-    Hello Alex
-
-<b>Exercise 3: Write a program to prompt the user for scores of English and Math, and compute total score and average score.</b>
-
-Enter English Score: 95
-Enter Math Score: 85
-Total Score: 180
-Average Score: 90.0
+    Enter English Score: 95
+    Enter Math Score: 85
+    Total Score: (95 - 80) * 1.5 + 80 + 85 = 
+    Weighted Average Score: 93.75
 
 
-<b>Exercise 4: Assume that we execute the following assignment statements:</b>
+<b>Exercise 2: Rewrite your weighted average computation program using try and except so that your program handles non-numeric input gracefully by printing a message and exiting the program. The following shows two executions of the program:</b>
 
-width = 27
-height = 22.0
+    Enter English Score: 95
+    Enter Math Score: Eighty-Five
+    Error, please enter numeric input
+    Enter English Score: Ninety
+    Error, please enter numeric input
 
-For each of the following expressions, write the value of the expression and the type (of the value of the expression).
+<b>Exercise 3: Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range, print an error message. If the score is between 0.0 and 1.0, print a grade using the following table:</b>
 
-width//2
-
-width/2.0
-
-height/2
-
-1 + 2 * 5
-
-Use the Python interpreter to check your answers.
-
-<b>Exercise 5: Write a program which prompts the user for a Celsius temperature, convert the temperature to Fahrenheit, and print out the converted temperature.</b>
-
-    Formular: Fahrenheit = (Celsius × 9/5) + 32 
-
-
-
+     Score   Grade
+    >= 0.9     A
+    >= 0.8     B
+    >= 0.7     C
+    >= 0.6     D
+     < 0.6     F
+    Enter score: 0.95
+    A
+    Enter score: perfect
+    Bad score
+    Enter score: 10.0
+    Bad score
+    Enter score: 0.75
+    C
+    Enter score: 0.5
+    F
+Run the program repeatedly as shown above to test the various different values for input.
