@@ -139,6 +139,20 @@ Short-circuit evaluation of logical expressions: When Python detects that there 
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
     ZeroDivisionError: division by zero
+
+    >>> x = 1
+    >>> y = 0
+    >>> x >= 2 and y != 0 and (x/y) > 2
+    False
+    >>> x = 6
+    >>> y = 0
+    >>> x >= 2 and y != 0 and (x/y) > 2
+    False
+    >>> x >= 2 and (x/y) > 2 and y != 0
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    ZeroDivisionError: division by zero
+>>>
 >>>
 
 
