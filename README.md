@@ -158,6 +158,7 @@ Short-circuit evaluation of logical expressions: When Python detects that there 
 
 ## [Glossary](./glossary_cond.md)
 
+# [Day 2 Assignments](assignment.md)
 
 
 # Advanced Topics
