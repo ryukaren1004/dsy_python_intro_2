@@ -103,6 +103,47 @@ An expression is a combination of values, variables, and operators.
 
 ## [Glossary](./glossary.md)
 
+# Conditional Execution
+
+### Boolean expression
+True 
+Fals
+comparision oerators
+What is the difference between == and =?
+
+### Logical Operators
+and 
+or
+None zero numbers are also True in python.
+
+### Conditional execution
+if statement and indentation
+Compound statement
+Changing from 3 chevrons to 3 dots
+Alternative execution: else
+Chained conditionals and nested conditionals
+Catching exceptions try and except
+Short-circuit evaluation of logical expressions: When Python detects that there is nothing to be gained by evaluating 
+
+    >>> x = 6
+    >>> y = 2
+    >>> x >= 2 and (x/y) > 2
+    True
+    >>> x = 1
+    >>> y = 0
+    >>> x >= 2 and (x/y) > 2
+    False
+    >>> x = 6
+    >>> y = 0
+    >>> x >= 2 and (x/y) > 2
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    ZeroDivisionError: division by zero
+>>>
+
+
+
+
 # Advanced Topics
 
 * [Python Termimal (ipython)](#python-terminal)
