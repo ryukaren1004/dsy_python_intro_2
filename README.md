@@ -30,20 +30,22 @@ A value is one of the basic things a program works with. Values belong to differ
     >>> .2
     0.2
 
->>> .4e7
-4000000.0
->>> type(.4e7)
-<class 'float'>
->>> 4.2e-4
-0.00042
+    >>> .4e7
+    4000000.0
+    >>> type(.4e7)
+    <class 'float'>
+    >>> 4.2e-4
+    0.00042
 
 * <b>Complex Numbers</b>
-    >>> 2+3j
+ 
+>>> 2+3j
     (2+3j)
     >>> type(2+3j)
     <class 'complex'>
 
 * <b>String</b>
+
     >>> print("I am a string.")
     I am a string.
     >>> type("I am a string.")
