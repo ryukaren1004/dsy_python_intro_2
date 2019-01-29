@@ -1,4 +1,98 @@
-# Topics
+# Variables, Expressions, and Statements
+
+### Values and Types
+A value is one of the basic things a program works with. Values belong to different types
+
+<b>Python's important native datatypes</b>
+* <b>Integers</b>
+    >>> type(10)
+    <class 'int'>
+    >>> type(0o10)
+    <class 'int'>
+    >>> type(0x10)
+    <class 'int'>
+
+* <b>Floating-Point Numbers</b>
+    >>> type(4.2)
+    <class 'float'>
+    >>> 4.
+    4.0
+    >>> .2
+    0.2
+
+    >>> .4e7
+    4000000.0
+    >>> type(.4e7)
+    <class 'float'>
+    >>> 4.2e-4
+    0.00042
+
+* <b>Complex Numbers</b>
+    >>> 2+3j
+    (2+3j)
+    >>> type(2+3j)
+    <class 'complex'>
+
+* <b>String</b>
+    >>> print("I am a string.")
+    I am a string.
+    >>> type("I am a string.")
+    <class 'str'>
+
+* <b>Boolean</b>
+    >>> type(True)
+    <class 'bool'>
+    >>> type(False)
+    <class 'bool'>
+
+### Variables
+
+    >>> message = 'And now for something completely different'
+    >>> n = 17
+    >>> pi = 3.1415926535897931
+
+    >>> print(n)
+
+    >>> print(pi)
+
+    >>> type(message)
+    
+    >>> type(n)
+    
+    >>> type(pi)
+
+Variable names can contatin letters, numbers, and underscore character(_) but they cannot start with a number.
+
+    >>> 88names = 'Alex'
+    >>> names@ = 'Alex' 
+    >>> class = 'Alex'
+    >>> name = 'Alex'
+    >>> print( name )
+
+### Statements
+A statement is a unit of code that the Python interpreter can execute.
+
+### Operators and Operands
+Operators are special symbols that represent computations like addition and multiplication, and the values ther operator is applied to are called operands
+
+### Expressions
+An expression is a combination of values, variables, and operators.
+
+### Asking the user for input
+An expression is a combination of values, variables, and operators.
+
+    >>> inp = input()
+    >>> print( inp ) 
+
+    >>> name = input('Enter your name: ') 
+    >>> print( name )
+
+## [Excersises](./excersises.md)
+
+## [Glossary](./glossary.md)
+
+# Advanced Topics
+
 * [Python Termimal (ipython)](#python-terminal)
 * [Advanced Python](#advanced-python)
     * [Generators](#generators)
