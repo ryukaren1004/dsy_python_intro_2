@@ -46,16 +46,16 @@ A value is one of the basic things a program works with. Values belong to differ
 
 * <b>String</b>
 
-    >>> print("I am a string.")
-    I am a string.
-    >>> type("I am a string.")
-    <class 'str'>
+    '>>> print("I am a string.")<br>
+    I am a string.<br>
+    '>>> type("I am a string.")<br>
+    <class 'str'><br>
 
 * <b>Boolean</b>
-    >>> type(True)
-    <class 'bool'>
-    >>> type(False)
-    <class 'bool'>
+    '>>> type(True)<br>
+    <class 'bool'><br>
+    '>>> type(False)<br>
+    <class 'bool'><br>
 
 ### Variables
 
