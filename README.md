@@ -11,14 +11,14 @@ A value is one of the basic things a program works with. Values belong to differ
     '>>> type(0o10)<br>
     <class 'int'><br>
     '>>> type(0x10)<br>
-    <class 'int'> <br>
+    <class 'int'><br>
 
-    >>> type(10)
-    <class 'int'>
-    >>> type(0o10)
-    <class 'int'>
-    >>> type(0x10)
-    <class 'int'>
+    '>>> type(10)<br>
+    <class 'int'><br>
+    '>>> type(0o10)<br>
+    <class 'int'><br>
+    '>>> type(0x10)<br>
+    <class 'int'><br>
 
 * <b>Floating-Point Numbers</b>
 >>> 
@@ -39,10 +39,10 @@ A value is one of the basic things a program works with. Values belong to differ
 
 * <b>Complex Numbers</b>
  
->>> 2+3j
-    (2+3j)
-    >>> type(2+3j)
-    <class 'complex'>
+    '>>> 2+3j<br>
+    (2+3j)<br>
+    '>>> type(2+3j)<br>
+    <class 'complex'><br>
 
 * <b>String</b>
 
