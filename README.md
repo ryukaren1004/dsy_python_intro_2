@@ -99,7 +99,7 @@ An expression is a combination of values, variables, and operators.
     >>> name = input('Enter your name: ') 
     >>> print( name )
 
-## [Excersises](./excersises.md)
+## [Exercises](./exercises.md)
 
 ## [Glossary](./glossary.md)
 
