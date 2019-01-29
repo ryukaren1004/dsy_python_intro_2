@@ -6,12 +6,12 @@ A value is one of the basic things a program works with. Values belong to differ
 <b>Python's important native datatypes</b>
 * <b>Integers</b>
 
-    >>> type(10)
-    <class 'int'>
-    >>> type(0o10)
-    <class 'int'>
-    >>> type(0x10)
-    <class 'int'> 
+    >>> type(10)<br>
+    <class 'int'><br>
+    >>> type(0o10)<br>
+    <class 'int'><br>
+    >>> type(0x10)<br>
+    <class 'int'> <br>
 
 >>> >>> type(10)
     <class 'int'>
