@@ -5,6 +5,7 @@ A value is one of the basic things a program works with. Values belong to differ
 
 <b>Python's important native datatypes</b>
 * <b>Integers</b>
+
     >>> type(10)
     <class 'int'>
     >>> type(0o10)
@@ -13,19 +14,21 @@ A value is one of the basic things a program works with. Values belong to differ
     <class 'int'>
 
 * <b>Floating-Point Numbers</b>
-    >>> type(4.2)
+>>> 
+>>> 
+    >>> type(4.2) 
     <class 'float'>
     >>> 4.
     4.0
     >>> .2
     0.2
 
-    >>> .4e7
-    4000000.0
-    >>> type(.4e7)
-    <class 'float'>
-    >>> 4.2e-4
-    0.00042
+>>> .4e7
+4000000.0
+>>> type(.4e7)
+<class 'float'>
+>>> 4.2e-4
+0.00042
 
 * <b>Complex Numbers</b>
     >>> 2+3j
