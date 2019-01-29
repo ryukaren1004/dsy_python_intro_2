@@ -117,13 +117,13 @@ or
 None zero numbers are also True in python.
 
 ### Conditional execution
-if statement and indentation
-Compound statement
-Changing from 3 chevrons to 3 dots
-Alternative execution: else
-Chained conditionals and nested conditionals
-Catching exceptions try and except
-Short-circuit evaluation of logical expressions: When Python detects that there is nothing to be gained by evaluating 
+if statement and indentation<br>
+Compound statement<br>
+Changing from 3 chevrons to 3 dots<br>
+Alternative execution: else<br>
+Chained conditionals and nested conditionals<br>
+Catching exceptions try and except<br>
+Short-circuit evaluation of logical expressions: When Python detects that there is nothing to be gained by evaluating <br>
 
     >>> x = 6
     >>> y = 2
