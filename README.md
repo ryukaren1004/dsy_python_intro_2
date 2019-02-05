@@ -158,7 +158,105 @@ Short-circuit evaluation of logical expressions: When Python detects that there 
 
 ## [Glossary](./glossary_cond.md)
 
-# [Day 2 Assignments](assignment.md)
+# Functions
+
+### Function calls
+a function is a named sequence of statements that performs a computation. When you define a function, you specify the name and the sequence of statements, Later you can call the function by name.
+
+### Buit-in functions
+    >>> max('Hello world')
+    >>> min('Hello world')
+    >>> len('Hello world')
+** You should treat the names of built-in functions as reserved words.
+
+
+### Type conversion functions
+    >>> int('32')
+    >>> int('Hello')
+    >>> int(3.999)
+    >>> float(32)
+    >>> float('3.14159')
+    >>> str(32)
+
+### Math functions
+    >>> import math
+    >>> print(math)
+
+The module object contains the functions and variables defined in the module. To access one of the functions, you have to specify the name of the module and the name of the function, separated by a dot.(dot notation)
+
+    >>> radians = 0.7
+    >>> height = math.sin(radians)
+    >>> 
+    >>> degrees = 45
+    >>> radians = degrees / 360.0 * 2 * math.pi
+    >>> math.sin(radians)
+    0.7071067811865475
+    >>> math.sqrt(2)/2.0
+    0.7071067811865476
+
+### Random numbers
+    import random
+
+    for i in range(10):
+        x = random.random()
+        print(x)
+
+### Adding a new function - Function definition
+
+    def print_my_name(fname, lname=''):
+        print("My name is ", fname)
+        print("My full name is ", fname, lname)
+
+    def repeat_name_printing(fname, lname=''):
+        print_my_name(fname, lname)
+        print_my_name(fname, lname)
+
+    repeat_name_printing('Alex', 'Seong')
+     
+ The statements inside the function do not get executed until the function is called. So, the function has to be created bofore it is called. 
+
+### Flow of execution
+
+To -> Bottom
+
+### Parameters and Arguments
+
+Inside the function, the arguments are assigned to variables called parameters.
+
+### Fruitful functions and void functions
+
+* fruitful functions: yield results and return the values
+* void functions: don't return a value
+
+    import math
+
+    radians = 0.7
+
+    x = math.cos(radians)               # fruitful function
+    golden = (math.sqrt(5) + 1) / 2     # fruitful function
+
+    print(x, golden)                    # void function
+
+
+    def simple_calc(a, b, opr):
+        if opr == '+' or opr == 'add':
+            return a + b
+        elif opr == '-' or opr == 'sub':
+            return a - b
+        elif opr == '*' or opr == 'mul':
+            return a * b
+        elif opr == '/' or opr == 'div':
+            return a / b
+        else:
+            print("Enter a correct operator")
+
+    x = simple_calc(7, 4, '-')
+    print(x)
+
+
+## [Exercises](./exercises_func.md)
+
+# [Day 3 Assignments](assignment.md)
 
 
 # Advanced Topics
@@ -815,7 +913,7 @@ except IOError:
     else:
         result = -1
     ```
-
+Exer
     The times when you should use it are when you need to run the code in order to determine if it will produce an error. Two times you frequently see it coming up are in reading from files and making web requests. You need to actually run the code to know whether there's going to be an issue.
 
 
