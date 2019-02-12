@@ -1,5 +1,3 @@
-# This first line is provided for you
-
 english = input('Enter English Score: ')
 math = input('Enter Math Score: ')
 total = int(math) + int(english)
